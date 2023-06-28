@@ -6,7 +6,7 @@
   "types": "dist/cjs/index.d.ts",
   "main": "dist/cjs/index.js",
   "type": "commonjs",
-  "repository": "github:anthropics/anthropic-node-tokenizer",
+  "repository": "github:anthropics/anthropic-tokenizer-typescript",
   "license": "Apache-2.0",
   "private": false,
   "scripts": {
@@ -37,4 +37,3 @@
     "typescript": "^4.8.2"
   }
 }
-

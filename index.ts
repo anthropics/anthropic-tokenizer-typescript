@@ -1,4 +1,4 @@
-import { Tiktoken } from '@dqbd/tiktoken';
+import { Tiktoken } from '@dqbd/tiktoken/lite';
 
 import claude from '~/claude.json';
 

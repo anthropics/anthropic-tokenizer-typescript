@@ -18,8 +18,8 @@
     "fix": "eslint --fix --ext ts,js ."
   },
   "dependencies": {
-    "@dqbd/tiktoken": "^1.0.6",
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.18",
+    "tiktoken": "^1.0.10"
   },
   "devDependencies": {
     "@anthropic-ai/tokenizer": "link:.",

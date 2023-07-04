@@ -1,10 +1,10 @@
-import { Tiktoken } from '@dqbd/tiktoken';
+import { Tiktoken } from '@dqbd/tiktoken/lite';
 
 import claude from '~/claude.json';
 
 export function countTokens(text: string): number {
   const tokenizer = getTokenizer();
-  const encoded = tokenizer.encode(text);
+  const encoded = tokenizer.encode(text.normalize('NFKC'), 'all');
   tokenizer.free();
   return encoded.length;
 }
